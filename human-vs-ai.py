@@ -357,7 +357,7 @@ def runNeatAlgorithm(config_path):
                                 neat.DefaultSpeciesSet, neat.DefaultStagnation, config_path)
 
     # load trained AI
-    file = open("models/model1.pickle", "rb")
+    file = open("trained-model.pickle", "rb")
     best_genome = pickle.load(file)
     file.close()
 
