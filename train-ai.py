@@ -380,7 +380,7 @@ def runNeatAlgorithm(config_path):
     winner = population.run(gameloop, 500)
 
     # save the best model
-    saved_model = open("model.pickle", "wb")
+    saved_model = open("models/new-model.pickle", "wb")
     pickle.dump(winner, saved_model)
     saved_model.close()
 
