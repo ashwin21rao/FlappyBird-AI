@@ -351,9 +351,9 @@ def gameloop(genomes, config):
             generation += 1
             running = False
 
-        # quit if AI passes 2000 points
+        # quit if AI passes 1000 points
         for player in players:
-            if player.is_alive and player.score > 2000:
+            if player.is_alive and player.score > 1000:
                 running = False
 
         # update the display
