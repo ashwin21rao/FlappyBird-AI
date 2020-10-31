@@ -259,7 +259,7 @@ def initializeGame():
     pygame.mixer.pre_init(44100, -16, 2, 2048)
     pygame.mixer.init()
     pygame.init()
-    pygame.mixer.music.load("extras/backgroundmusic.mp3")
+    pygame.mixer.music.load("extras/backgroundmusic.wav")
     pygame.mixer.music.play(loops=-1)
     pygame.font.init()
 
